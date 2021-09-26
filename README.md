@@ -6,7 +6,7 @@ Looking for a code for a music bot ? This fully open source code is made for you
 
 If you need help with this project, to get support faster you can join the help server by just clicking [here](https://discord.gg/5cGSYV8ZZj).
 
-*If you don't have any development knowledge, it is recommended to join the Discord support server to get help.*
+_If you don't have any development knowledge, it is recommended to join the Discord support server to get help._
 
 ### ⚡ Configuration
 
@@ -14,21 +14,21 @@ Open the configuration file located in the main folder `config.js`.
 
 ```js
 module.exports = {
-    app: {
-        px: 'XXX',
-        token: 'XXX',
-        playing: 'by Zerio ❤️',
-    },
+  app: {
+    px: 'XXX',
+    token: 'XXX',
+    playing: 'by Zerio ❤️',
+  },
 
-    opt: {
-        DJ: {
-            enabled: false,
-            roleName: 'XXX',
-            commands: []
-        },
-        maxVol: 100,
-        discordPlayer: {}
-    }
+  opt: {
+    DJ: {
+      enabled: false,
+      roleName: 'XXX',
+      commands: [],
+    },
+    maxVol: 100,
+    discordPlayer: {},
+  },
 };
 ```
 
@@ -40,7 +40,7 @@ Basic configuration
 
 DJ mode configuration
 
-- `opt/DJ/enabled`, whether the DJ mode should be activated or not 
+- `opt/DJ/enabled`, whether the DJ mode should be activated or not
 - `opt/DJ/roleName`, the name of the DJ role to be used
 - `opt/DJ/commands`, the list of commands limited to members with the DJ role
 
@@ -63,4 +63,4 @@ Realized with ❤️ by [ZerioDev](https://github.com/ZerioDev).
 
 Please do not withdraw the license and keep the credits on this project.
 
-To have full access to the project and to be able to withdraw the credits a small donation is accepted. 
+To have full access to the project and to be able to withdraw the credits a small donation is accepted.
